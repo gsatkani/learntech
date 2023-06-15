@@ -1,0 +1,68 @@
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Routing and Navigation</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" routerLink="/products">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/solutions">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/consulting">Consulting</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/support">Support</a>
+        </li>
+            
+        </ul>
+    </div>
+</nav>
+
+<!-- <h1>Routing and Navigation</h1>
+<nav>
+<ul>
+  <li><a routerLink="/products">Products</a></li>
+  <li><a routerLink="/solutions">Solutions</a></li>
+  <li><a routerLink="/consulting">Consulting</a></li>
+  <li><a routerLink="/support">Support</a></li>
+</ul>
+
+</nav> -->
+
+
+<router-outlet></router-outlet>
+<!-- <app-user></app-user> -->
+
+<!-- <app-login></app-login>
+<br>
+<app-signup></app-signup>
+<br> -->
+
+
+ <!-- Types DataBinding
+<h3 [style.background-color] ="exp">
+  InterPolation 
+  {{title}}
+  {{binding}}
+</h3>
+<h3 [class]="sale">
+  Event Binding
+  <button (click)="showMessage()" [disabled]="flag"> Click</button>
+</h3>
+<h3>
+ Two Way DataBinding
+<input type="text" [(ngModel)]="message">
+{{message}}
+</h3>
+<h3>
+  Property Binding
+  <img [src]="imageUrl" alt="">
+</h3> -->
+
+
+
+

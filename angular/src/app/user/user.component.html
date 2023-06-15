@@ -1,0 +1,32 @@
+<div class="container">
+    <h3>Add Customer Details</h3>
+    <form [formGroup]="customerForm"  (ngSubmit)="addCustomer()">
+       <div class="form-group">
+         <label for="uid">Id</label>
+         <input type="text"  id="uid" class="form-control" formControlName="ssn">
+       </div>
+       <div class="form-group">
+        <label for="uname">Customer Name</label>
+        <input type="text"  id="uname" class="form-control" formControlName="cname">
+      </div>
+      <div class="form-group">
+        <label for="umobile">Mobile</label>
+        <input type="text"  id="umobile" class="form-control" formControlName="mobile">
+      </div>
+      <div class="form-group">
+        <label for="uemail">Email</label>
+        <input type="email"  id="uemail" class="form-control" formControlName="email">
+      </div>
+      <div class="form-group">
+        <label for="udob">Date of Birth</label>
+        <input type="date"  id="udob" class="form-control" formControlName="dateOfBirth">
+      </div>
+      <div class="form-group">
+      
+        <input type="Submit"  value="Add Customer" class="btn btn-primary">
+      </div>
+   
+        
+    </form>
+
+</div>

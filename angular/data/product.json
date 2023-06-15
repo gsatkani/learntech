@@ -1,0 +1,10 @@
+{
+    "products" : [
+        {
+            "id" :101,
+            "name":"Laptop",
+            "price": 23000.45,
+            "quntity": 10
+        }
+    ]
+}
